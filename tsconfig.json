@@ -1,0 +1,50 @@
+{
+     "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "/.spec.ts"
+    ],
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "declarationMap": true,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "importHelpers": true,
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declarationDir": "dist/types",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "forceConsistentCasingInFileNames": true,
+        "downlevelIteration": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "paths": {
+            "": [
+                "./src/@types/"
+            ]
+        },
+        "types": [
+        ],
+        "jsx": "react-jsx" 
+
+    }
+}
